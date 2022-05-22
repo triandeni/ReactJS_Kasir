@@ -1,0 +1,290 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "nama": "makanan"
+    },
+    {
+      "id": 2,
+      "nama": "minuman"
+    },
+    {
+      "id": 3,
+      "nama": "cemilan"
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "kode": "K-01",
+      "nama": "Mie Ayam",
+      "harga": 16000,
+      "is_ready": true,
+      "gambar": "mie-ayam.jpg",
+      "category": {
+        "id": 1,
+        "nama": "makanan"
+      }
+    },
+    {
+      "id": 2,
+      "kode": "K-02",
+      "nama": "Mie Bakso",
+      "harga": 20000,
+      "is_ready": true,
+      "gambar": "mie-bakso.jpg",
+      "category": {
+        "id": 1,
+        "nama": "makanan"
+      }
+    },
+    {
+      "id": 3,
+      "kode": "K-03",
+      "nama": "Mie Ayam Bakso",
+      "harga": 25000,
+      "is_ready": true,
+      "gambar": "mie-ayam-bakso.jpg",
+      "category": {
+        "id": 1,
+        "nama": "makanan"
+      }
+    },
+    {
+      "id": 8,
+      "kode": "K-04",
+      "nama": "Bakso Urat",
+      "harga": 15000,
+      "is_ready": true,
+      "gambar": "bakso-urat.jpg",
+      "category": {
+        "id": 1,
+        "nama": "makanan"
+      }
+    },
+    {
+      "id": 4,
+      "kode": "M-01",
+      "nama": "Es teh",
+      "harga": 2000,
+      "is_ready": true,
+      "gambar": "es-teh.jpg",
+      "category": {
+        "id": 2,
+        "nama": "minuman"
+      }
+    },
+    {
+      "id": 5,
+      "kode": "M-02",
+      "nama": "Es Jeruk",
+      "harga": 3000,
+      "is_ready": true,
+      "gambar": "es-jeruk.jpg",
+      "category": {
+        "id": 2,
+        "nama": "minuman"
+      }
+    },
+    {
+      "id": 9,
+      "kode": "M-03",
+      "nama": "Lemon Tea",
+      "harga": 4000,
+      "is_ready": true,
+      "gambar": "lemon-tea.jpg",
+      "category": {
+        "id": 2,
+        "nama": "minuman"
+      }
+    },
+    {
+      "id": 6,
+      "kode": "C-01",
+      "nama": "Tahu",
+      "harga": 1000,
+      "is_ready": true,
+      "gambar": "tahu.jpg",
+      "category": {
+        "id": 3,
+        "nama": "cemilan"
+      }
+    },
+    {
+      "id": 7,
+      "kode": "C-02",
+      "nama": "Kerupuk",
+      "harga": 3000,
+      "is_ready": true,
+      "gambar": "kerupuk.jpg",
+      "category": {
+        "id": 3,
+        "nama": "cemilan"
+      }
+    }
+  ],
+  "keranjang": [
+    {
+      "jumlah": 1,
+      "total_harga": 16000,
+      "product": {
+        "id": 1,
+        "kode": "K-01",
+        "nama": "Mie Ayam",
+        "harga": 16000,
+        "is_ready": true,
+        "gambar": "mie-ayam.jpg",
+        "category": {
+          "id": 1,
+          "nama": "makanan"
+        }
+      },
+      "id": 1
+    },
+    {
+      "jumlah": 5,
+      "total_harga": 100000,
+      "product": {
+        "id": 2,
+        "kode": "K-02",
+        "nama": "Mie Bakso",
+        "harga": 20000,
+        "is_ready": true,
+        "gambar": "mie-bakso.jpg",
+        "category": {
+          "id": 1,
+          "nama": "makanan"
+        }
+      },
+      "id": 2
+    },
+    {
+      "jumlah": 1,
+      "total_harga": 15000,
+      "product": {
+        "id": 8,
+        "kode": "K-04",
+        "nama": "Bakso Urat",
+        "harga": 15000,
+        "is_ready": true,
+        "gambar": "bakso-urat.jpg",
+        "category": {
+          "id": 1,
+          "nama": "makanan"
+        }
+      },
+      "id": 3
+    }
+  ],
+  "pesanan": [
+    {
+      "total_bayar": 6000,
+      "menus": [
+        {
+          "jumlah": 3,
+          "total_harga": 3000,
+          "product": {
+            "id": 6,
+            "kode": "C-01",
+            "nama": "Tahu",
+            "harga": 1000,
+            "is_ready": true,
+            "gambar": "tahu.jpg",
+            "category": {
+              "id": 3,
+              "nama": "cemilan"
+            }
+          },
+          "id": 4
+        },
+        {
+          "jumlah": 1,
+          "total_harga": 3000,
+          "product": {
+            "id": 7,
+            "kode": "C-02",
+            "nama": "Kerupuk",
+            "harga": 3000,
+            "is_ready": true,
+            "gambar": "kerupuk.jpg",
+            "category": {
+              "id": 3,
+              "nama": "cemilan"
+            }
+          },
+          "id": 5
+        }
+      ],
+      "id": 1
+    },
+    {
+      "total_bayar": 16000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 16000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Mie Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "mie-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "makanan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 2
+    },
+    {
+      "total_bayar": 20000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 20000,
+          "product": {
+            "id": 2,
+            "kode": "K-02",
+            "nama": "Mie Bakso",
+            "harga": 20000,
+            "is_ready": true,
+            "gambar": "mie-bakso.jpg",
+            "category": {
+              "id": 1,
+              "nama": "makanan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 3
+    },
+    {
+      "total_bayar": 16000,
+      "menus": [
+        {
+          "jumlah": 1,
+          "total_harga": 16000,
+          "product": {
+            "id": 1,
+            "kode": "K-01",
+            "nama": "Mie Ayam",
+            "harga": 16000,
+            "is_ready": true,
+            "gambar": "mie-ayam.jpg",
+            "category": {
+              "id": 1,
+              "nama": "makanan"
+            }
+          },
+          "id": 1
+        }
+      ],
+      "id": 4
+    }
+  ]
+}
